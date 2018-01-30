@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+}
+
+.container p{
+    max-width: 50%;
+    padding: 15px;
+    background-color: #f1f1f1;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+		        background: url(../img/background.jpg) no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+    .login-register-form-section {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .login-register-form-section i {
+        width: 10px;
+    }
+    .login-register-form-section .nav-tabs > li > a {
+        color: rgb(224, 0, 0);
+    }
+
+    .login-register-form-section .nav-tabs > li.active > a {
+        background-color: rgba(103, 0, 47, 0.5);
+        border-color: #2abb9b;
+        color: white;
+    }
+    .login-register-form-section .nav-tabs > li > a,
+    .login-register-form-section .nav-tabs > li.active > a {
+        width: 173px;
+        text-align: center;
+        border-radius: 15px;
+        margin-right: 0px;
+    }
+    .login-register-form-section .nav-tabs {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .login-register-form-section .btn-custom {
+        width: 100%;
+        background-color: #2abb9b;
+        border-color: #2abb9b;
+        margin-bottom: 0.5em;
+        border-radius: 0;
+    }
+    .login-register-form-section .btn-custom:hover {
+        width: 100%;
+        background-color: #48A497;
+        border-color: #2abb9b;
+    }
+    .login-register-form-section .form-group {
+        padding: 0 20px;44
+    }
+
+    .panel-default {
+     opacity: 1;
+     background-color: rgba(56, 57, 58, 0.61);
+     border-color: rgb(93, 45, 45);
+     border-radius: 20px;
+    }
+
+    .control-label {
+    color : rgb(224, 0, 0);
+    }

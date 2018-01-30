@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false">
+  <!--property name="level" value="INFO" />
+
+  <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <Pattern>.%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n
+      </Pattern>
+    </encoder>
+    <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+      <level>TRACE</level>
+    </filter>
+  </appender>
+
+  <root>
+    <level value="INFO" />
+    <appender-ref ref="consoleAppender" />
+  </root-->
+
+  <!-- Включаем дополнительные настройки для dev конфигурации -->
+  <!--include resource="logback-${env}.xml"/>
+
+  <logger name="jdbc.sqlonly"        level="OFF"/>
+  <logger name="jdbc.sqltiming"      level="WARN"/>
+  <logger name="jdbc.resultsettable" level="OFF"/>
+  <logger name="jdbc.connection"     level="OFF"/>
+  <logger name="jdbc.resultset"      level="OFF"/>
+  <logger name="jdbc.audit"          level="OFF"/-->
+
+  <property name="level" value="INFO" />
+
+  <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <Pattern>.%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n
+      </Pattern>
+    </encoder>
+    <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+      <level>TRACE</level>
+    </filter>
+  </appender>
+
+  <root>
+    <level value="INFO" />
+    <appender-ref ref="consoleAppender" />
+  </root>
+
+</configuration>
